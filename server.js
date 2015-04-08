@@ -3,12 +3,18 @@
  */
 var express = require('express');
 
+var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+var config = require('./server/config/config')[env];
+//express
 var app = express();
 
 app.use(express.static(__dirname+'/public'));
 
-var port = process.env.PORT || 3030;
+//mongoose
+require('./server/config/mongoose')(config);
 
-app.listen(port,function(){
-    console.log("Server Started on Port:"+port)
+
+
+app.listen(config.port,function(){
+    console.log("Server Started on Port:"+config.port)
 })
