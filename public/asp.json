@@ -1,0 +1,117 @@
+{
+    "paper": {
+        "id": 1,
+        "name": "Asp.Net Quiz",
+        "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)"
+    },
+    "questions": [{
+        "id": 1010,
+        "qnText": "ASP.NET webform separates the HTML output from program logic using a feature qnTextd as", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1010, "opText": "Exception", "isAnswer": false },
+            { "id": 1056, "qnId": 1010, "opText": "Code-behind", "isAnswer": true },
+            { "id": 1057, "qnId": 1010, "opText": "Code-front", "isAnswer": false },
+            { "id": 1058, "qnId": 1010, "opText": "None of the above", "isAnswer": false }]
+        
+    },
+    {
+        "id": 1011,
+        "qnText": "The feature in ASP.NET 2.0 that is used to fire a normal postback to a different page in the application is called", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1011, "opText": "Theme", "isAnswer": false },
+            { "id": 1057, "qnId": 1011, "opText": "Code-front", "isAnswer": false },
+            { "id": 1056, "qnId": 1011, "opText": "Cross Page Posting", "isAnswer": true },
+            { "id": 1058, "qnId": 1011, "opText": "None of the above", "isAnswer": false }]
+        
+    },
+    {
+        "id": 1012,
+        "qnText": "What class does the ASP.NET Web Form class inherit from by default?", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1012, "opText": "System.Web.UI.Page", "isAnswer": true },
+            { "id": 1057, "qnId": 1012, "opText": "System.Web.UI.Form", "isAnswer": false },
+            { "id": 1056, "qnId": 1012, "opText": "System.Web.GUI.Page", "isAnswer": false },
+            { "id": 1058, "qnId": 1012, "opText": "System.Web.Form", "isAnswer": false }]
+        
+    },
+    {
+        "id": 1013,
+        "qnText": "What does MVC stand for?", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1013, "opText": "Model View Controller", "isAnswer": true },
+            { "id": 1057, "qnId": 1013, "opText": "Maximum Virtual Control", "isAnswer": false },
+            { "id": 1056, "qnId": 1013, "opText": "Microsoft Visual Core", "isAnswer": false },
+            { "id": 1058, "qnId": 1013, "opText": "None of the above", "isAnswer": false }]
+        
+    },
+    {
+        "id": 1014,
+        "qnText": "Which of the following does NOT require type casting?", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1014, "opText": "Session", "isAnswer": false },
+            { "id": 1057, "qnId": 1014, "opText": "TempData", "isAnswer": false },
+            { "id": 1056, "qnId": 1014, "opText": "ViewData", "isAnswer": false },
+            { "id": 1058, "qnId": 1014, "opText": "ViewBag", "isAnswer": true }]
+        
+    },
+    {
+        "id": 1015,
+        "qnText": "Which is the correct order of Page life-cycle in asp.net webform?", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1015, "opText": "Init, PreRender, Load", "isAnswer": false },
+            { "id": 1057, "qnId": 1015, "opText": "Load, PreRender, Init", "isAnswer": false },
+            { "id": 1056, "qnId": 1015, "opText": "Init, Load, PreRender", "isAnswer": true },
+            { "id": 1058, "qnId": 1015, "opText": "None of the above", "isAnswer": false }]
+        
+    },
+    {
+        "id": 1016,
+        "qnText": "Which of these data source controls do not implement caching?", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1016, "opText": "ObjectDataSource", "isAnswer": false },
+            { "id": 1056, "qnId": 1016, "opText": "LinqDataSource", "isAnswer": true },
+            { "id": 1057, "qnId": 1016, "opText": "SqlDataSource", "isAnswer": false },
+            { "id": 1058, "qnId": 1016, "opText": "XmlDataSource", "isAnswer": false }]
+        
+    },
+    {
+        "id": 1017,
+        "qnText": "Which tag asp:Label control by default renders to?", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1017, "opText": "div", "isAnswer": false },
+            { "id": 1056, "qnId": 1017, "opText": "span", "isAnswer": true },
+            { "id": 1057, "qnId": 1017, "opText": "body", "isAnswer": false },
+            { "id": 1058, "qnId": 1017, "opText": "label", "isAnswer": false }]
+        
+    },
+    {
+        "id": 1018,
+        "qnText": "Which method do you use to explicitly kill a user's session?", 
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1018, "opText": "Session.Terminate()", "isAnswer": false },
+            { "id": 1057, "qnId": 1018, "opText": "Session.TimeOut()", "isAnswer": false },
+            { "id": 1056, "qnId": 1018, "opText": "Session.Abondon()", "isAnswer": true },
+            { "id": 1058, "qnId": 1018, "opText": "Session.Kill()", "isAnswer": false }]
+        
+    },
+    {
+        "id": 1019,
+        "qnText": "Which of the following object is ideal for keeping data alive for a single request?",
+        "qnPaperid": 1,
+        "options": [
+            { "id": 1055, "qnId": 1019, "optxt": "HttpContext", "isAnswer": true },
+            { "id": 1056, "qnId": 1019, "optxt": "Session", "isAnswer": false },
+            { "id": 1057, "qnId": 1019, "optxt": "Cookies", "isAnswer": false },
+            { "id": 1058, "qnId": 1019, "optxt": "SqlServer", "isAnswer": false }]
+        
+    }]
+}
